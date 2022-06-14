@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@stefanprobst/prettier-config@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/@stefanprobst/prettier-config/-/prettier-config-2.0.0.tgz#e5d84fec0288ee69e3fe0337270c531eaf95d8c8"
-  integrity sha512-C6kQiq/MJzzaf8iilaK3ovdBrnqUwB5RgoN3isym1puPT1xy47EaW1RWT51GoQ8sW8ugXEy7Ii7gFYdmk0r4/w==
+"@stefanprobst/prettier-config@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/@stefanprobst/prettier-config/-/prettier-config-2.0.2.tgz#e5e405c6fec6a412051d4ac329be924ddcb90f0b"
+  integrity sha512-1Th+RgiK9TmembXDdF6DCJE42CXrbw/S7xv954gLMUo2bt5uW9Rg0xWRq3up45nwK3MmLbo9txagFgdFgLQXXQ==
 
 "@types/mdast@^3.0.10":
   version "3.0.10"
@@ -72,10 +72,10 @@ parse-latin@^5.0.0:
     unist-util-modify-children "^2.0.0"
     unist-util-visit-children "^1.0.0"
 
-prettier@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
-  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
+prettier@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-2.7.0.tgz#a4fdae07e5596c51c9857ea676cd41a0163879d6"
+  integrity sha512-nwoX4GMFgxoPC6diHvSwmK/4yU8FFH3V8XWtLQrbj4IBsK2pkYhG4kf/ljF/haaZ/aii+wNJqISrCDPgxGWDVQ==
 
 retext-latin@^3.0.0:
   version "3.1.0"
@@ -121,20 +121,33 @@ trough@^2.0.0:
   resolved "https://registry.npmjs.org/trough/-/trough-2.0.2.tgz#94a3aa9d5ce379fc561f6244905b3f36b7458d96"
   integrity sha512-FnHq5sTMxC0sk957wHDzRnemFnNBvt/gSY99HzK8F7UP5WAbvP70yX5bd7CjEQkN+TjdxwI7g7lJ6podqrG2/w==
 
-typescript@^4.4.4:
-  version "4.5.2"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.5.2.tgz#8ac1fba9f52256fdb06fb89e4122fa6a346c2998"
-  integrity sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==
+typescript@^4.7.3:
+  version "4.7.3"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.7.3.tgz#8364b502d5257b540f9de4c40be84c98e23a129d"
+  integrity sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==
 
 unherit@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/unherit/-/unherit-3.0.0.tgz#83d69af9d8e3afd28fa51cff9ee84de7a1d82a6b"
   integrity sha512-UmvIQZGEc9qdLIQ8mv8/61n6PiMgfbOoASPKHpCvII5srShCQSa6jSjBjlZOR4bxt2XnT6uo6csmPKRi+zQ0Jg==
 
-unified@^10.0.0, unified@^10.1.1:
+unified@^10.0.0:
   version "10.1.1"
   resolved "https://registry.npmjs.org/unified/-/unified-10.1.1.tgz#345e349e3ab353ab612878338eb9d57b4dea1d46"
   integrity sha512-v4ky1+6BN9X3pQrOdkFIPWAaeDsHPE1svRDxq7YpTc2plkIqFMwukfqM+l0ewpP9EfwARlt9pPFAeWYhHm8X9w==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    bail "^2.0.0"
+    extend "^3.0.0"
+    is-buffer "^2.0.0"
+    is-plain-obj "^4.0.0"
+    trough "^2.0.0"
+    vfile "^5.0.0"
+
+unified@^10.1.2:
+  version "10.1.2"
+  resolved "https://registry.npmjs.org/unified/-/unified-10.1.2.tgz#b1d64e55dafe1f0b98bb6c719881103ecf6c86df"
+  integrity sha512-pUSWAi/RAnVy1Pif2kAoeWNBa3JVrx0MId2LASj8G+7AiHWoKZNTomq6LG326T68U7/e263X6fTdcXIy7XnF7Q==
   dependencies:
     "@types/unist" "^2.0.0"
     bail "^2.0.0"

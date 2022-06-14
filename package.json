@@ -1,6 +1,6 @@
 {
   "name": "@stefanprobst/remark-smart-quotes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/index.js",
   "license": "MIT",
   "type": "module",
@@ -13,7 +13,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "format": "prettier . --list-different --ignore-path .gitignore",
+    "format": "prettier . --cache --list-different --ignore-path .gitignore",
     "format:fix": "yarn run format --write",
     "prepublishOnly": "yarn run build"
   },
@@ -21,13 +21,13 @@
     "@types/mdast": "^3.0.10",
     "retext": "^8.1.0",
     "retext-smartypants": "^5.1.0",
-    "unified": "^10.1.1",
+    "unified": "^10.1.2",
     "unist-util-visit": "^4.1.0"
   },
   "devDependencies": {
-    "@stefanprobst/prettier-config": "^2.0.0",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.4"
+    "@stefanprobst/prettier-config": "^2.0.2",
+    "prettier": "^2.7.0",
+    "typescript": "^4.7.3"
   },
   "prettier": "@stefanprobst/prettier-config"
 }
